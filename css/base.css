@@ -1,0 +1,44 @@
+nav{
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 1%;
+  border-radius: 15px;
+}
+
+nav>a{
+  color: red;
+  font-size: 1.5em;
+  font-family: Ubuntu;
+}
+
+nav>a:hover{
+  background-color: darkgreen;
+}
+
+#perso{
+  display: inline-block;
+  height: 100%;
+
+  border: solid black 1px;
+  border-radius: 8px;
+}
+
+.formation, .projet{
+  display: inline-block;
+
+  border: solid black 1px;
+  border-radius: 8px;
+
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.formation>img, .projet>img{
+  width: 50px;
+  height: 50px;
+
+  float: left;
+}
