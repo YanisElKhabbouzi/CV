@@ -1,44 +1,73 @@
-nav{
-  background-color: black;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Structure principale avec sidebar et contenu */
+.container {
+  display: grid;
+  grid-template-columns: 15% 1fr; /* 250px pour la sidebar, le reste pour le contenu principal */
+  height: 100vh;
+}
+
+/* Sidebar */
+#perso {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border: solid black 1px;
+  border-radius: 8px;
+}
+
+#perso > * {
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+#photoprofile {
+  margin-top: 1%;
+  width: 75%;
+  height: 75%;
+}
+
+#informationperso > img {
+  margin-right: 1%;
+  max-width: 10%;
+  max-height: 5%;
+}
+
+/* Contenu principal */
+#main-content {
+  padding: 20px;
   display: flex;
-  justify-content: space-around;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  margin-bottom: 1%;
-  border-radius: 15px;
+  flex-direction: column;
+  gap: 30px;
 }
 
-nav>a{
-  color: red;
-  font-size: 1.5em;
-  font-family: Ubuntu;
+/* Sections */
+.section {
+  margin-bottom: 30px;
 }
 
-nav>a:hover{
-  background-color: darkgreen;
+/* Grid dans chaque section */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Deux colonnes */
+  gap: 10px; /* Espace entre les divs */
 }
 
-#perso{
-  display: inline-block;
-  height: 100%;
-
+.grid-item {
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
   border: solid black 1px;
-  border-radius: 8px;
-}
-
-.formation, .projet{
-  display: inline-block;
-
-  border: solid black 1px;
-  border-radius: 8px;
-
   margin-bottom: 10px;
-  margin-left: 10px;
+  background-color: #ccc;
 }
 
-.formation>img, .projet>img{
-  width: 50px;
-  height: 50px;
-
+.grid-item > img {
+  max-width: 50%;
+  max-height: 25%;
   float: left;
 }

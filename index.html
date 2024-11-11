@@ -1,91 +1,99 @@
 <!DOCTYPE html>
-<html class="no-js" lang="fr">
+<html lang="fr">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Yanis El Khabbouzi</title>
-  <link rel="stylesheet" href="css/style.css">
+<!--  <link rel="stylesheet" href="css/style.css">-->
   <link rel="stylesheet" href="css/base.css">
-
   <meta name="description" content="">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <meta property="og:image:alt" content="">
-
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
-
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
 </head>
-<body>
-  <script src="js/app.js"></script>
 
-  <header>
+<body>
+<!--  <header>
     <nav>
       <a href="">Présentation</a>
       <a href="">Formation</a>
-      <a href="">Expérierce </a>
+      <a href="">Expérierce</a>
     </nav>
-  </header>
+  </header>-->
 
-  <div id="perso">
-    <img src="img/inco.png" alt="photo">
-    <h1>Yanis EL KHABBOUZI</h1>
-    <p>description</p>
-    <div id="informationperso">
-      <img src="" alt="telephone"><p>07 71 66 45 46</p>
-      <img src="" alt="localisation"><p>cs </p>
-      <img src="" alt="email"><p> </p>
+  <div class="container"> <!-- Tout -->
+    <aside id="perso"> <!-- SideBar -->
+      <!--<img src="img/inco.png" alt="photo" id="photoprofile">-->
+      <h1>Yanis EL KHABBOUZI</h1>
+      <p>Actuellement âgé de 19 ans, je suis en deuxième année de BUT Informatique, avec une spécialité en développement. Je suis à la recherche d’un stage de 8 à 10 semaines à partir du 1er avril, afin de mettre en pratique mes compétences acquises durant ma formation. Passionné par l'innovation technologique et les nouvelles solutions digitales, je suis motivé par l'idée de contribuer à des projets stimulants qui ont un impact réel, je souhaite acquérir une expérience pratique enrichissante dans un environnement collaboratif où je pourrais apprendre des professionnels du secteur. Mon esprit d'équipe et ma capacité d'adaptation me permettront de m'intégrer facilement au sein d'une équipe dynamique. J'aspire à développer mes compétences techniques tout en participant activement aux objectifs de l'entreprise.</p>
+
+      <div id="informationperso"> <!-- Infos perso -->
+        <img src="img/telephone.png" alt="telephone"><p>07 71 66 45 46</p>
+        <img src="img/marqueur.png" alt="localisation"><p>Roubaix, 59100</p>
+        <img src="img/courrier.png" alt="email"><p>yanis.el-khabbouzi.etu@univ-lille.fr</p>
+      </div>
+    </aside>
+
+    <div id="main-content"> <!-- Toute la partie droite -->
+      <div class="section"> <!-- une section -->
+        <h2>Formation</h2>
+        <div class="grid"> <!-- Une grille -->
+          <div class="grid-item" id="but"> <!-- Un element de la grille -->
+            <img src="img/ULille.png" alt="univlille">
+            <h3>BUT Informatique</h3>
+            <h5>Université de Lille</h5>
+            <p>Description</p>
+          </div>
+
+          <div class="grid-item" id="bac">
+            <img src="img/stremi.png" alt="stremi">
+            <h3>Baccalauréat technologique STI2D</h3>
+            <h5>Lycée Saint Rémi</h5>
+            <p>Description</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Expérierce</h2>
+          <div class="grid-item" id="...">
+            <img src="" alt="...">
+            <h3>...</h3>
+            <h5>...</h5>
+            <p>Description</p>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Projet</h2>
+          <div class="grid">
+            <div class="grid-item" id="kfind">
+              <img src="" alt="kfind">
+              <h3>k-Find</h3>
+              <h5>BUT Informatique</h5>
+              <p>Description</p>
+            </div>
+
+            <div class="grid-item" id="djhex">
+              <img src="" alt="djhex">
+              <h3>Donjon Hexagone</h3>
+              <h5>BUT Informatique</h5>
+              <p>Description</p>
+            </div>
+
+            <div class="grid-item" id="lamap">
+              <img src="" alt="lamap">
+              <h3>Làmap</h3>
+              <h5>BUT Informatique</h5>
+              <p>Description</p>
+            </div>
+
+            <div class="grid-item" id="...">
+              <img src="" alt="...">
+              <h3>...</h3>
+              <h5>...</h5>
+              <p>Description</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
-  </div>
-
-
-  <div class="formation" id="but">
-    <img src="img/ULille.png" alt="univlille">
-    <h3>BUT Informatique</h3>
-    <h4>Université de Lille</h4>
-    <p>Description</p>
-  </div>
-
-  <div class="formation" id="bac">
-    <img src="img/stremi.jpeg" alt="stremi">
-    <h3>Baccalauréat technologique STI2D</h3>
-    <h4>Lycée Saint Rémi</h4>
-    <p>Description</p>
-  </div>
-
-  <div class="projet" id="kfind">
-    <img src="" alt="kfind">
-    <h3>k-Find</h3>
-    <h4>BUT Informatique</h4>
-    <p>Description</p>
-  </div>
-
-  <div class="projet" id="djhex">
-    <img src="" alt="djhex">
-    <h3>k-Find</h3>
-    <h4>BUT Informatique</h4>
-    <p>Description</p>
-  </div>
-
-  <div class="projet" id="lamap">
-    <img src="" alt="lamap">
-    <h3>Làmap</h3>
-    <h4>BUT Informatique</h4>
-    <p>Description</p>
-  </div>
-
-  <div class="projet" id="...">
-    <img src="" alt="...">
-    <h3>...</h3>
-    <h4>...</h4>
-    <p>Description</p>
-  </div>
-
 </body>
 </html>
