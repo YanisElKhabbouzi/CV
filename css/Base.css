@@ -1,0 +1,28 @@
+:root{
+  --taupe-color: #4B4237;
+  --golden-color: #D5A021;
+  --white-color: #EDE7D9;
+  --taupe-grey-color: #A49694;
+
+nav>a{
+color: var(--taupe-color)
+}
+
+  --dim-grey-color: #736B60;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  background-color: grey;
+  padding: 1%;
+  margin: 0.2%;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

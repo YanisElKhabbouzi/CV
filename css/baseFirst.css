@@ -7,7 +7,7 @@
 /* Structure principale avec sidebar et contenu */
 .container {
   display: grid;
-  grid-template-columns: 15% 1fr; /* 250px pour la sidebar, le reste pour le contenu principal */
+  grid-template-columns: 20% 1fr;
   height: 100vh;
 }
 
@@ -66,8 +66,19 @@
   background-color: #ccc;
 }
 
-.grid-item > img {
-  max-width: 50%;
-  max-height: 25%;
-  float: left;
+.grid-item{
+  display: flex; /* Utilisation de flexbox pour aligner les éléments horizontalement */
+  align-items: center; /* Centre verticalement les éléments dans la div */
+  gap: 20px; /* Espacement entre l'image et le texte */
+}
+
+.div-description {
+  max-width: 600px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.image {
+  width: 15%; /* Ajuste la taille de l'image */
+  height: auto; /* Garde les proportions de l'image */
 }
