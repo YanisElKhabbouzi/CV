@@ -1,28 +1,40 @@
-:root{
-  --taupe-color: #4B4237;
-  --golden-color: #D5A021;
-  --white-color: #EDE7D9;
-  --taupe-grey-color: #A49694;
-
-nav>a{
-color: var(--taupe-color)
-}
-
-  --dim-grey-color: #736B60;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+.InfoTop{
+  color: white;
+  text-align: center;
+  background-color: #3b1c00;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
 nav{
   display: flex;
   justify-content: space-around;
-  background-color: grey;
+  background-color: #3b1c00;
   padding: 1%;
-  margin: 0.2%;
+  margin: 1%;
   border-radius: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav>a{
+  text-decoration: none;
+  color: white;
+}
+
+nav>a:hover{
+  background-color: #555;
+  border-radius: 5px;
+  color: black;
+}
+
+#description{
+  margin: 1%;
 }
