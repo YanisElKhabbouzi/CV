@@ -58,6 +58,7 @@ nav{
 nav>a{
   text-decoration: none;
   color: white;
+  padding: 0.5%;
 }
 
 nav>a:hover{
@@ -79,10 +80,10 @@ nav>a:hover{
 
 .quiSuije>h2, #description{
   font-size: large;
-  -webkit-text-stroke: 0.1px;
+  margin: 1%;
+  -webkit-text-stroke: 0.2px;
   -webkit-text-stroke-color: #000000;
 }
-
 
 /* Contenu principal */
 #main-content {
@@ -133,6 +134,10 @@ nav>a:hover{
   background-color: rgba(255, 255, 255, 0.6);
   padding: 1%;
   border-radius: 5px;
+}
+
+#radimg{
+  border-radius: 10px;
 }
 
 .footer {
