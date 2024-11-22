@@ -6,7 +6,7 @@
 
 html, body {
   height: 100svh;
-  background-image: url("https://images.alphacoders.com/136/thumb-1920-1361815.jpeg");
+  background-image: url("../img/space-purple.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -66,12 +66,13 @@ nav>a:hover{
 
 .quiSuije{
   margin: 1%;
-  border: solid black 2px;
+  border: solid white 2px;
   color: white;
+  border-radius: 10px;
 }
 
 .quiSuije>hr{
-  border: solid black 1px;
+  border: solid white 1px;
 }
 
 .footer {
