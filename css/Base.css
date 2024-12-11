@@ -121,6 +121,11 @@ nav>a:hover{
   gap: 20px; /* Espacement entre l'image et le texte */
 }
 
+.grid-item:hover{
+  transition: 0.5s ease-in-out;
+  scale: 1.02;
+}
+
 .div-description {
   max-width: 600px;
   width: 50%;
@@ -242,6 +247,7 @@ footer>a>img{
   max-height: 80px;
   padding-left: 1%;
   padding-right: 1%;
+  filter: drop-shadow(1px 1px 5px white);
 }
 
 /* Contenu de la popup */
@@ -257,6 +263,13 @@ footer>a>img{
 /* Texte contrasté */
 .popup-content h3, .popup-content p {
   color: white;
+}
+
+.popup-image-group{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  gap: 1%;
 }
 
 /* Bouton de fermeture */
