@@ -25,11 +25,11 @@
       </div>
       <div class="quiSuije">
         <div id="description">
-          <p>Actuellement âgé de 19 ans, je suis en deuxième année de BUT Informatique, avec une spécialité en développement.
-            Je suis à la recherche d’un stage de 8 à 10 semaines à partir du 1er avril 2025, afin de mettre en pratique mes compétences acquises durant ma formation.
-            Passionné par l'innovation technologique et les nouvelles solutions digitales, je suis motivé par l'idée de contribuer à des projets stimulants qui ont un impact réel,
-            je souhaite acquérir une expérience pratique enrichissante dans un environnement collaboratif où je pourrais apprendre des professionnels du secteur. Mon esprit d'équipe et ma capacité d'adaptation me permettront de m'intégrer facilement au sein d'une équipe dynamique.
-            J'aspire à développer mes compétences techniques tout en participant activement aux objectifs de l'entreprise.</p>
+          <p>Actuellement âgé de 19 ans, je suis en deuxième année de BUT Informatique, avec une spécialité en développement.<br>
+            Je suis à la recherche d’un stage de 8 à 10 semaines à partir du 1er avril 2025, afin de mettre en pratique mes compétences acquises durant ma formation.<br>
+            Passionné par l'innovation technologique et les nouvelles solutions digitales, je suis motivé par l'idée de contribuer à des projets stimulants qui ont un impact réel,<br>
+            je souhaite acquérir une expérience pratique enrichissante dans un environnement collaboratif où je pourrais apprendre des professionnels du secteur. Mon esprit d'équipe et ma capacité d'adaptation me permettront de m'intégrer facilement au sein d'une équipe dynamique.<br>
+            J'aspire à développer mes compétences techniques tout en participant activement aux objectifs de l'entreprise.<br></p>
         </div>
       </div>
     </div>
@@ -64,7 +64,6 @@
             </div>
           </div>
         </a>
-
       </div>
     </div>
 
@@ -82,16 +81,58 @@
             <h5>Stage deuxieme année BUT informatique</h5>
           </div>
         </div>
+
+        <div class="grid-item" id="">
+          <img src="" alt="..." class="image">
+          <div class="div-description">
+            <h3>Ecole Michelet</h3>
+            <h5>Stage d'observation de 3eme</h5>
+          </div>
+        </div>
       </div>
 
 
       <div class="section" class="projets">
         <div class="divTitle">
           <h2 class="title">Projet</h2>
-        </div>
+            </div>
 
-        <!-- K_Find -->
         <div class="grid">
+          <!-- LinkChat -->
+            <button class="btn-popup" onclick="openPopup('popup-linkchat')">
+              <div class="grid-item" id="kfind">
+                <img src="img/LinkChat.png" alt="LinkChat" class="image">
+                <div class="div-description">
+                  <h3>LinkChat</h3>
+                  <h5>BUT Informatique</h5>
+                </div>
+              </div>
+            </button>
+  
+            <div class="popup" id="popup-linkchat">
+              <div class="popup-content">
+                <span class="close" onclick="closePopup('popup-linkchat')">&times;</span>
+                <div class="topPopup">
+                  <a href="https://github.com/YanisElKhabbouzi/LinkChat" target="_blank"><img src="img/github.png"></a>
+                  <h3>LinkChat</h3><br>
+                </div>
+                <p class="description-popup">
+                  Description du projet : Projet réalisé en binôme dans le cadre d’un cours de développement logiciel.
+                  LinkChat est une application web de réseau social permettant aux utilisateurs de créer des fils de discussion, de poster des messages et d'interagir avec d'autres membres. 
+                  Développée en JEE avec une architecture MVC, l’application inclut l’authentification, la gestion des abonnés, et des fonctionnalités avancées comme les likes, l’ajout d'images et un service web en JSON. 
+                  L'interface est responsive et sécurisée.
+                <br>
+                <br>
+                  Ce projet m'a permis de développer des compétences en architecture <strong>MVC</strong>, en développement d'applications web avec <strong>Java EE</strong>, et en gestion des bases de données <strong>SQL</strong>.
+                </p>
+                <div class="popup-image-group">
+                  <img src="img/screenLinkChat.png" alt="Screen LinkChat" class="popup-image">
+                  <img src="img/" alt="Screen LinkChat" class="popup-image">
+                </div>
+              </div>
+            </div>
+
+          <!-- K_Find -->
           <button class="btn-popup" onclick="openPopup('popup-kfind')">
             <div class="grid-item" id="kfind">
               <img src="img/Kfind.png" alt="kfind" class="image">
@@ -109,13 +150,13 @@
                 <a href="https://github.com/YanisElKhabbouzi/K_Find" target="_blank"><img src="img/github.png"></a>
                 <h3>K_Find</h3><br>
               </div>
-              <p>
+              <p class="description-popup">
                 Description du projet : k_Find est un logiciel de classification basé sur l’algorithme k-Nearest Neighbors (k-NN). L’application permet de charger un ensemble de données depuis un fichier CSV et de les visualiser sous forme graphique.
                 L’utilisateur peut personnaliser les axes, ajouter de nouveaux points, et observer en temps réel leur classification en fonction des données existantes.
                 Le logiciel a été conçu pour être générique et adaptable à différents types de données.
-              </p> <br>
-              <p>
-                Ce projet m’a permis de perfectionner mes compétences en développement d’interfaces graphiques, en manipulation de données, et en application d’algorithmes d’apprentissage supervisé.
+                <br>
+                <br>
+                Ce projet m’a permis de perfectionner mes compétences en développement <strong>d’interfaces graphiques</strong>, en <strong>manipulation de données</strong>, et en <strong>application d’algorithmes</strong> d’apprentissage supervisé.
               </p>
               <div class="popup-image-group">
                 <img src="img/kfind%20screen.png" alt="Screen K_Find" class="popup-image">
@@ -142,13 +183,13 @@
                 <a href="https://github.com/YanisElKhabbouzi/Donjon-Hexagone" target="_blank"><img src="img/github.png"></a>
                 <h3>Donjon Hexagone</h3><br>
               </div>
-              <p>
+              <p class="description-popup">
                 Description du projet : Donjon Hexagone est un rogue-like textuel se déroulant dans un univers inspiré de la France, avec des références humoristiques et des mécaniques classiques de dungeon crawler.
                 Le joueur explore une carte composée de 3x3 zones, progresse en affrontant des monstres et récupérant des objets pour améliorer ses statistiques, avec pour objectif d’atteindre et de vaincre le boss final.
                 Ce projet a été structuré en une dizaine de sprints, avec des livraisons régulières pour assurer une évolution progressive et fonctionnelle du jeu.
-              </p> <br>
-              <p>
-                Ce projet m’a permis de renforcer mes compétences en développement collaboratif, d’apprendre à travailler dans un cadre agile, et de m’initier aux méthodologies de gestion de projet comme SCRUM.
+                <br>
+                <br>
+                Ce projet m’a permis de renforcer mes compétences en <strong>développement collaboratif</strong>, d’apprendre à travailler dans un cadre <strong>agile</strong>, et de m’initier aux méthodologies de gestion de projet comme <strong>SCRUM</strong>.
               </p>
               <div class="popup-image-group">
                 <img src="" alt="Screen DjHexagone" class="popup-image">
@@ -174,13 +215,13 @@
                 <a href="https://github.com/YanisElKhabbouzi/Lamap" target="_blank"><img src="img/github.png"></a>
                 <h3>Làmap</h3>
               </div>
-              <p>
+              <p class="description-popup">
                 Description du projet : Projet réalisé en trinôme dans le cadre d’un cours d’algorithmes et de structures de données.
                 Lamap est une application permettant de déterminer le chemin le plus court entre deux points en tenant compte de plusieurs contraintes définies par l’utilisateur (temps, émissions de CO2, ou moyens de transport disponibles).
                 Basée sur l’algorithme de Dijkstra, l’application utilise une base de données pré-remplie pour calculer et afficher l’itinéraire optimal.
-              </p> <br>
-              <p>
-                Ce projet m’a permis de maîtriser l’implémentation d’algorithmes complexes dans un contexte pratique et de collaborer au sein d’une équipe pour concevoir une solution fonctionnelle et utile.
+                <br>
+                <br>
+                Ce projet m’a permis de maîtriser <strong>l’implémentation d’algorithmes complexes</strong> dans un contexte pratique et de <strong>collaborer</strong> au sein d’une équipe pour concevoir une solution fonctionnelle et utile.
               </p>
               <div class="popup-image-group">
                 <img src="img/lamap%20screen.png" alt="Screen làmap" class="popup-image">
@@ -210,13 +251,13 @@
 
               <br>
 
-              <p>
+              <p class="description-popup">
                 Description du projet : Projet réalisé en binôme dans le cadre d’un cours de développement logiciel.
                 L’Oicéan de Connaissances est un jeu ludo-pédagogique inspiré du "jeu de l’oie", développé avec la bibliothèque IJava. Le jeu propose aux joueurs de progresser sur un plateau grâce à des lancers de dé.
                 À chaque tour, le joueur choisit une difficulté et doit répondre à une question : une bonne réponse offre un bonus de déplacement, tandis qu’une erreur applique un malus. L’objectif est d’allier apprentissage et divertissement dans un format accessible.
-              </p> <br>
-              <p>
-                Ce projet m’a permis de développer mes compétences en Java et de travailler efficacement en équipe sur un projet de bout en bout.
+                <br>
+                <br>
+                Ce projet m’a permis de développer mes compétences en <strong>Java</strong> et de travailler efficacement en <strong>équipe</strong> sur un projet de bout en bout.
               </p>
               <div class="popup-image-group">
                 <img src="" alt="Screen loicean" class="popup-image">
@@ -245,7 +286,7 @@
             <!-- Hard Skill -->
             <div class="grid-item-skill" id="hardskill">
               <div class="div-description">
-                <h3>Hard Skill</h3>
+                <h3>Hard Skills</h3>
                   <div class="hardskillelt">
                     <img src="img/Java_Logo.png" alt="" class="skillimage">
                     <h4>Java</h4>
@@ -280,18 +321,34 @@
                     <img src="img/markdown.png" alt="" class="skillimage">
                     <h4>MarkDown</h4>
                   </div>
+
+                  <div class="hardskillelt">
+                    <img src="img/html.png" alt="" class="skillimage">
+                    <h4>HTML</h4>
+                  </div>
+
+                  <div class="hardskillelt">
+                    <img src="img/css.png" alt="" class="skillimage">
+                    <h4>CSS</h4>
+                  </div>
+
+                  <div class="hardskillelt">
+                    <img src="img/js.png" alt="" class="skillimage">
+                    <h4>JS</h4>
+                  </div>
               </div>
             </div>
 
             <!-- Soft Skill -->
             <div class="grid-item-skill" id="softskill">
               <div class="div-description">
-                <h3>Soft Skill</h3>
+                <h3>Soft Skills</h3>
                 <div class="softskillelt">
                   <img src="img/communication.png" alt="Communication" class="skillimage">
                   <div class="skillDescription">
                     <h4>Communication</h4>
-                    <p>Capacité à communiquer efficacement, que ce soit à l'oral ou à l'écrit, avec des équipes, des clients et des partenaires.
+                    <br>
+                    <p><br>Capacité à communiquer efficacement, que ce soit à l'oral ou à l'écrit, avec des équipes, des clients et des partenaires.
                     Expérience dans la présentation de projets techniques à des publics non spécialisés.</p>
                   </div>
                 </div>
@@ -300,7 +357,8 @@
                   <img src="img/TravailEquipe.png" alt=Travaild'équipe" class="skillimage">
                   <div class="skillDescription">
                     <h4>Travail d'équipe</h4>
-                    <p>Solide esprit d'équipe et collaboration avec des collègues pour atteindre des objectifs communs.
+                    <br>
+                    <p><br>Solide esprit d'équipe et collaboration avec des collègues pour atteindre des objectifs communs.
                       Confortable dans des environnements de travail agiles et collaboratifs, avec un accent sur la coopération et le partage des connaissances.</p>
                   </div>
                 </div>
@@ -309,7 +367,8 @@
                   <img src="img/Résolution%20de%20problèmes.png" alt="Résolutiondeproblèmes" class="skillimage">
                   <div class="skillDescription">
                     <h4>Résolution de problèmes</h4>
-                    <p>Capacité à aborder et résoudre des problèmes complexes en utilisant une approche analytique et créative. Expérience dans la recherche de solutions innovantes pour des défis techniques ou organisationnels.</p>
+                    <br>
+                    <p><br>Capacité à aborder et résoudre des problèmes complexes en utilisant une approche analytique et créative. Expérience dans la recherche de solutions innovantes pour des défis techniques ou organisationnels.</p>
                   </div>
                 </div>
 
@@ -317,7 +376,8 @@
                   <img src="img/Gestion%20du%20temps.png" alt="Gestiondutemps" class="skillimage">
                   <div class="skillDescription">
                     <h4>Gestion du temps</h4>
-                    <p>Capacité à prioriser les tâches et à gérer efficacement le temps dans un environnement dynamique. Expérience avec des méthodes comme la gestion de projet agile et le respect des délais.</p>
+                    <br>
+                    <p><br>Capacité à prioriser les tâches et à gérer efficacement le temps dans un environnement dynamique. Expérience avec des méthodes comme la gestion de projet agile et le respect des délais.</p>
                   </div>
                 </div>
 
@@ -325,7 +385,8 @@
                   <img src="img/Adaptabilité.png" alt="Adaptabilité" class="skillimage">
                   <div class="skillDescription">
                     <h4>Adaptabilité</h4>
-                    <p>Grande capacité d'adaptation à de nouveaux outils, technologies et environnements de travail. Flexible face aux changements et prêt à relever de nouveaux défis dans un monde technologique en constante évolution.</p>
+                    
+                    <p><br>Grande capacité d'adaptation à de nouveaux outils, technologies et environnements de travail. Flexible face aux changements et prêt à relever de nouveaux défis dans un monde technologique en constante évolution.</p>
                   </div>
                 </div>
               </div>
